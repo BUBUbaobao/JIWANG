@@ -1091,5 +1091,29 @@ window.QUESTIONS = [
     ],
     "answerIndex": 2,
     "explain": "路由信息协议 RIP 是基于距离矢量路由算法。"
+  },
+  {
+    "id": 92,
+    "q": "SSH是____。",
+    "options": [
+      "安全外壳协议",
+      "超文本传输协议",
+      "路由选择信息协议",
+      "开放式最短路径优先"
+    ],
+    "answerIndex": 0,
+    "explain": "安全外壳协议（SSH）是一种加密的网络协议，用于在不安全的网络中安全地传输数据。"
+  },
+  {
+    "id": 93,
+    "q": "以下哪项对 IMAP 协议的“名称 + 主要功能”描述是正确的？",
+    "options": [
+      "互联网邮件访问协议（Internet Message Access Protocol, IMAP），用于让客户端访问并操作服务器上的电子邮件与邮箱（文件夹）",
+      "互联网邮件访问协议（Internet Message Access Protocol, IMAP），用于在不安全网络上提供安全远程登录",
+      "邮局协议第 3 版（Post Office Protocol v3, POP3），用于让客户端在服务器上管理邮件文件夹并进行同步",
+      "边界网关协议（Border Gateway Protocol, BGP），用于在邮件服务器之间转发电子邮件"
+    ],
+    "answerIndex": 0,
+    "explain": "IMAP 的英文全称是 Internet Message Access Protocol，主要用于客户端在服务器上访问并操作邮件/邮箱（文件夹）。"
   }
 ];
