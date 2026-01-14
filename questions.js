@@ -1,51 +1,51 @@
-/* 自动生成题库：V2（同类干扰项更强） */
+/* 自动生成题库：V3（更强同类干扰项：协议分层+易混集合+长度约束） */
 window.QUESTIONS = [
   {
     "id": 1,
     "q": "HTTP 的常用端口号是 ____。",
     "options": [
-      "68",
-      "69",
       "80",
-      "8080"
+      "79",
+      "8080",
+      "81"
     ],
-    "answerIndex": 2,
+    "answerIndex": 0,
     "explain": "HTTP 的常用端口号是 80。"
   },
   {
     "id": 2,
     "q": "HTTP 的中英文名称是 ____。",
     "options": [
+      "HTTPS",
+      "DNS",
       "超文本传输协议 (hypertext transport protocol)",
-      "安全超文本传输协议(Hypertext Transfer Protocol Secure)",
-      "TCP",
-      "UDP"
+      "HTTP"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explain": "HTTP 的中英文名称是 超文本传输协议 (hypertext transport protocol)。"
   },
   {
     "id": 3,
     "q": "HTTP 的主要功能特征是____。",
     "options": [
-      "HTTPS",
+      "用于浏览器与 Web 服务器之间传输 HTML 等超文本数据、0",
+      "用于浏览器与 Web 服务器之间传输 HTML 等超文本数据、是 WWW 的基础协议、0",
       "用于浏览器与 Web 服务器之间传输 HTML 等超文本数据，是 WWW 的基础协议",
-      "FTP",
-      "HTTP"
+      "用于在主机之间传输文件，支持上传/下载（控制 + 数据双通道）"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explain": "HTTP 的主要功能特征是：用于浏览器与 Web 服务器之间传输 HTML 等超文本数据，是 WWW 的基础协议。"
   },
   {
     "id": 4,
     "q": "FTP 的常用端口号是 ____。",
     "options": [
-      "21",
+      "21、20",
       "22",
       "20",
-      "21、20"
+      "21"
     ],
-    "answerIndex": 3,
+    "answerIndex": 0,
     "explain": "FTP 的常用端口号是 21、20。"
   },
   {
@@ -53,21 +53,21 @@ window.QUESTIONS = [
     "q": "FTP 的中英文名称是 ____。",
     "options": [
       "TELNET",
-      "HTTP",
-      "文件传输协议（File Transfer Protocol）",
-      "DNS"
+      "FTP",
+      "DNS",
+      "文件传输协议（File Transfer Protocol）"
     ],
-    "answerIndex": 2,
+    "answerIndex": 3,
     "explain": "FTP 的中英文名称是 文件传输协议（File Transfer Protocol）。"
   },
   {
     "id": 6,
     "q": "FTP 的主要功能特征是____。",
     "options": [
-      "HTTPS",
+      "FTP 使用两个并行的 TCP 连接来传输文件，一个是控制连接，另一个是数据连接",
       "用于在主机之间传输文件，支持上传/下载（控制 + 数据双通道）",
-      "FTP",
-      "HTTP"
+      "用于在主机之间传输文件、支持上传/下载（控制 + 数据双通道）、0",
+      "0、支持上传/下载（控制 + 数据双通道）"
     ],
     "answerIndex": 1,
     "explain": "FTP 的主要功能特征是：用于在主机之间传输文件，支持上传/下载（控制 + 数据双通道）。"
@@ -76,33 +76,33 @@ window.QUESTIONS = [
     "id": 7,
     "q": "POP3 的常用端口号是 ____。",
     "options": [
-      "80",
-      "123",
       "111",
-      "110"
+      "110",
+      "108",
+      "109"
     ],
-    "answerIndex": 3,
+    "answerIndex": 1,
     "explain": "POP3 的常用端口号是 110。"
   },
   {
     "id": 8,
     "q": "POP3 的中英文名称是 ____。",
     "options": [
-      "HTTP",
       "邮局协议第3版 (Post Office Protocol v3)",
       "POP3",
-      "HTTPS"
+      "DNS",
+      "DHCP"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explain": "POP3 的中英文名称是 邮局协议第3版 (Post Office Protocol v3)。"
   },
   {
     "id": 9,
     "q": "POP3 的主要功能特征是____。",
     "options": [
-      "HTTP",
-      "FTP",
-      "HTTPS",
+      "DHCP",
+      "DNS",
+      "POP3",
       "客户端从邮件服务器上下载电子邮件"
     ],
     "answerIndex": 3,
@@ -112,10 +112,10 @@ window.QUESTIONS = [
     "id": 10,
     "q": "ICMP 的中英文名称是 ____。",
     "options": [
-      "文件传输协议（File Transfer Protocol）",
+      "TELNET",
       "网间控制报文协议（Internet Control Messages Protocol）",
-      "正向地址解析协议（Address Resolution Protocol）",
-      "边界网关协议（Border Gateway Protocol）"
+      "NTP",
+      "ICMP"
     ],
     "answerIndex": 1,
     "explain": "ICMP 的中英文名称是 网间控制报文协议（Internet Control Messages Protocol）。"
@@ -124,12 +124,12 @@ window.QUESTIONS = [
     "id": 11,
     "q": "ICMP 的主要功能特征是____。",
     "options": [
-      "路由器之间传递控制消息、在主机、差错报告、如 Ping/Traceroute 使用",
-      "在主机、0、差错报告、如 Ping/Traceroute 使用",
       "在主机和路由器之间传递控制消息、差错报告，如 Ping/Traceroute 使用",
+      "路由器之间传递控制消息、在主机、差错报告、如 Ping/Traceroute 使用",
+      "在主机、路由器之间传递控制消息、差错报告、如 Ping/Traceroute 使用、0",
       "0、路由器之间传递控制消息、差错报告、如 Ping/Traceroute 使用"
     ],
-    "answerIndex": 2,
+    "answerIndex": 0,
     "explain": "ICMP 的主要功能特征是：在主机和路由器之间传递控制消息、差错报告，如 Ping/Traceroute 使用。"
   },
   {
@@ -137,9 +137,9 @@ window.QUESTIONS = [
     "q": "RIP 的中英文名称是 ____。",
     "options": [
       "路由选择信息协议（Routing Information Protocol）",
-      "动态主机配置协议(Dynamic Host Configuration Protocol)",
-      "边界网关协议（Border Gateway Protocol）",
-      "正向地址解析协议（Address Resolution Protocol）"
+      "IP",
+      "BGP",
+      "RIP"
     ],
     "answerIndex": 0,
     "explain": "RIP 的中英文名称是 路由选择信息协议（Routing Information Protocol）。"
@@ -149,9 +149,9 @@ window.QUESTIONS = [
     "q": "RIP 的主要功能特征是____。",
     "options": [
       "基于距离向量算法的内部网关路由协议，使用跳数计算路径",
+      "基于链路状态算法的动态路由协议，快速收敛、支持区域划分",
       "基于距离向量算法的内部网关路由协议、使用跳数计算路径、0",
-      "基于距离向量算法的内部网关路由协议、0",
-      "基于链路状态算法的动态路由协议，快速收敛、支持区域划分"
+      "基于距离向量算法的内部网关路由协议、0"
     ],
     "answerIndex": 0,
     "explain": "RIP 的主要功能特征是：基于距离向量算法的内部网关路由协议，使用跳数计算路径。"
@@ -160,10 +160,10 @@ window.QUESTIONS = [
     "id": 14,
     "q": "OSPF 的中英文名称是 ____。",
     "options": [
-      "超文本传输协议 (hypertext transport protocol)",
+      "NTP",
       "开 放 式 最 短 路 径 优 先（ Open Shortest Path First Interior Gateway Protocol）",
-      "路由选择信息协议（Routing Information Protocol）",
-      "网间控制报文协议（Internet Control Messages Protocol）"
+      "OSPF",
+      "DNS"
     ],
     "answerIndex": 1,
     "explain": "OSPF 的中英文名称是 开 放 式 最 短 路 径 优 先（ Open Shortest Path First Interior Gateway Protocol）。"
@@ -172,24 +172,24 @@ window.QUESTIONS = [
     "id": 15,
     "q": "OSPF 的主要功能特征是____。",
     "options": [
-      "基于链路状态算法的动态路由协议、0、支持区域划分",
-      "快速收敛、基于链路状态算法的动态路由协议、支持区域划分",
+      "基于链路状态算法的动态路由协议、快速收敛、支持区域划分、0",
       "基于链路状态算法的动态路由协议，快速收敛、支持区域划分",
-      "基于链路状态算法的动态路由协议、快速收敛"
+      "基于链路状态算法的动态路由协议、0、支持区域划分",
+      "快速收敛、基于链路状态算法的动态路由协议、支持区域划分"
     ],
-    "answerIndex": 2,
+    "answerIndex": 1,
     "explain": "OSPF 的主要功能特征是：基于链路状态算法的动态路由协议，快速收敛、支持区域划分。"
   },
   {
     "id": 16,
     "q": "BGP 的中英文名称是 ____。",
     "options": [
-      "边界网关协议（Border Gateway Protocol）",
-      "文件传输协议（File Transfer Protocol）",
-      "网间控制报文协议（Internet Control Messages Protocol）",
-      "路由选择信息协议（Routing Information Protocol）"
+      "BGP",
+      "TELNET",
+      "DHCP",
+      "边界网关协议（Border Gateway Protocol）"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explain": "BGP 的中英文名称是 边界网关协议（Border Gateway Protocol）。"
   },
   {
@@ -198,8 +198,8 @@ window.QUESTIONS = [
     "options": [
       "用于自治系统之间路由选择的外部网关协议、策略性强、0",
       "用于自治系统之间路由选择的外部网关协议，策略性强",
-      "基于距离向量算法的内部网关路由协议，使用跳数计算路径",
-      "用于自治系统之间路由选择的外部网关协议、0"
+      "用于自治系统之间路由选择的外部网关协议、0",
+      "基于距离向量算法的内部网关路由协议，使用跳数计算路径"
     ],
     "answerIndex": 1,
     "explain": "BGP 的主要功能特征是：用于自治系统之间路由选择的外部网关协议，策略性强。"
@@ -208,12 +208,12 @@ window.QUESTIONS = [
     "id": 18,
     "q": "HDLC 的中英文名称是 ____。",
     "options": [
-      "路由选择信息协议（Routing Information Protocol）",
       "高级数据链路控制（High - level Data Link Control）",
       "网间控制报文协议（Internet Control Messages Protocol）",
+      "路由选择信息协议（Routing Information Protocol）",
       "动态主机配置协议(Dynamic Host Configuration Protocol)"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explain": "HDLC 的中英文名称是 高级数据链路控制（High - level Data Link Control）。"
   },
   {
@@ -221,9 +221,9 @@ window.QUESTIONS = [
     "q": "HDLC 的主要功能特征是____。",
     "options": [
       "一个数据链路层协议，用于同步点对点和多点链路传输",
+      "物理层",
       "网络层",
-      "数据链路层",
-      "物理层"
+      "数据链路层"
     ],
     "answerIndex": 0,
     "explain": "HDLC 的主要功能特征是：一个数据链路层协议，用于同步点对点和多点链路传输。"
@@ -232,67 +232,67 @@ window.QUESTIONS = [
     "id": 20,
     "q": "WWW 的中英文名称是 ____。",
     "options": [
-      "无线局域网（Wireless Local Area Network）",
-      "边界网关协议（Border Gateway Protocol）",
-      "文件传输协议（File Transfer Protocol）",
-      "万维网（WorldWide Web）"
+      "万维网（WorldWide Web）",
+      "基于距离向量算法的内部网关路由协议，使用跳数计算路径",
+      "基于链路状态算法的动态路由协议，快速收敛、支持区域划分",
+      "客户端从邮件服务器上下载电子邮件"
     ],
-    "answerIndex": 3,
+    "answerIndex": 0,
     "explain": "WWW 的中英文名称是 万维网（WorldWide Web）。"
   },
   {
     "id": 21,
     "q": "WWW 的主要功能特征是____。",
     "options": [
-      "HTTPS",
-      "FTP",
-      "利用 HTTP/HTTPS 浏览互联网内容的系统，不是单一协议，而是服务体系",
-      "HTTP"
+      "不是单一协议、利用 HTTP/HTTPS 浏览互联网内容的系统、而是服务体系",
+      "利用 HTTP/HTTPS 浏览互联网内容的系统、不是单一协议",
+      "利用 HTTP/HTTPS 浏览互联网内容的系统、不是单一协议、而是服务体系、0",
+      "利用 HTTP/HTTPS 浏览互联网内容的系统，不是单一协议，而是服务体系"
     ],
-    "answerIndex": 2,
+    "answerIndex": 3,
     "explain": "WWW 的主要功能特征是：利用 HTTP/HTTPS 浏览互联网内容的系统，不是单一协议，而是服务体系。"
   },
   {
     "id": 22,
     "q": "DNS 的常用端口号是 ____。",
     "options": [
-      "67",
+      "54",
+      "52",
       "53",
-      "69",
-      "68"
+      "51"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explain": "DNS 的常用端口号是 53。"
   },
   {
     "id": 23,
     "q": "DNS 的中英文名称是 ____。",
     "options": [
-      "TELNET",
       "域名服务器（Domain Name System）",
-      "HTTP",
-      "IMAP"
+      "IMAP",
+      "TELNET",
+      "DNS"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explain": "DNS 的中英文名称是 域名服务器（Domain Name System）。"
   },
   {
     "id": 24,
     "q": "DNS 的主要功能特征是____。",
     "options": [
-      "FTP",
+      "存放对象的服务器主机域名（或 IP 地址）和对象路径名",
+      "将域名映射到 IP 地址、实现域名解析、0",
       "将域名映射到 IP 地址，实现域名解析",
-      "HTTP",
-      "HTTPS"
+      "将域名映射到 IP 地址、0"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explain": "DNS 的主要功能特征是：将域名映射到 IP 地址，实现域名解析。"
   },
   {
     "id": 25,
     "q": "HTTPS 的常用端口号是 ____。",
     "options": [
-      "389",
+      "442",
       "80",
       "8080",
       "443"
@@ -304,24 +304,24 @@ window.QUESTIONS = [
     "id": 26,
     "q": "HTTPS 的中英文名称是 ____。",
     "options": [
-      "HTTP",
       "安全超文本传输协议(Hypertext Transfer Protocol Secure)",
+      "HTTPS",
       "DNS",
-      "HTTPS"
+      "HTTP"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explain": "HTTPS 的中英文名称是 安全超文本传输协议(Hypertext Transfer Protocol Secure)。"
   },
   {
     "id": 27,
     "q": "HTTPS 的主要功能特征是____。",
     "options": [
-      "基于 HTTP 之上通过 SSL/TLS 实现加密通信",
-      "FTP",
+      "HTTP",
       "HTTPS",
-      "HTTP"
+      "基于 HTTP 之上通过 SSL/TLS 实现加密通信",
+      "FTP"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explain": "HTTPS 的主要功能特征是：基于 HTTP 之上通过 SSL/TLS 实现加密通信。"
   },
   {
@@ -329,32 +329,32 @@ window.QUESTIONS = [
     "q": "WLAN 的中英文名称是 ____。",
     "options": [
       "依据 IEEE 802.11 标准实现无线局域网连接",
-      "无线局域网（Wireless Local Area Network）",
-      "万维网（WorldWide Web）",
-      "正向地址解析协议（Address Resolution Protocol）"
+      "正向地址解析协议（Address Resolution Protocol）",
+      "网间控制报文协议（Internet Control Messages Protocol）",
+      "无线局域网（Wireless Local Area Network）"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explain": "WLAN 的中英文名称是 无线局域网（Wireless Local Area Network）。"
   },
   {
     "id": 29,
     "q": "WLAN 的主要功能特征是____。",
     "options": [
+      "基于超时重传、拥塞控制、流量控制、序号、 连接管理这 5 种机制来实现",
+      "总线型结构的局域网，但在逻辑结构上是环型的局域网",
       "依据 IEEE 802.11 标准实现无线局域网连接",
-      "80，FTP 控制连接的端口号是21， SMTP 的端口号是25 ，POP3 的端口号是110",
-      "无线局域网（Wireless Local Area Network）",
-      "总线型结构的局域网，但在逻辑结构上是环型的局域网"
+      "无线局域网（Wireless Local Area Network）"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explain": "WLAN 的主要功能特征是：依据 IEEE 802.11 标准实现无线局域网连接。"
   },
   {
     "id": 30,
     "q": "SMTP 的常用端口号是 ____。",
     "options": [
+      "26",
+      "24",
       "23",
-      "22",
-      "21",
       "25"
     ],
     "answerIndex": 3,
@@ -364,46 +364,46 @@ window.QUESTIONS = [
     "id": 31,
     "q": "SMTP 的中英文名称是 ____。",
     "options": [
-      "FTP",
-      "HTTP",
       "简单邮件传输协议",
-      "HTTPS"
+      "DHCP",
+      "DNS",
+      "SMTP"
     ],
-    "answerIndex": 2,
+    "answerIndex": 0,
     "explain": "SMTP 的中英文名称是 简单邮件传输协议。"
   },
   {
     "id": 32,
     "q": "SMTP 的主要功能特征是____。",
     "options": [
-      "HTTP",
-      "用于发送电子邮件和服务器之间转发邮件",
-      "FTP",
-      "HTTPS"
+      "用于发送电子邮件、服务器之间转发邮件、0",
+      "采用并发服务器，二是采用重复服务器的方法",
+      "服务器类型、主机名、路径及文件名",
+      "用于发送电子邮件和服务器之间转发邮件"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explain": "SMTP 的主要功能特征是：用于发送电子邮件和服务器之间转发邮件。"
   },
   {
     "id": 33,
     "q": "CSMA/CD 的中英文名称是 ____。",
     "options": [
-      "以太网的介质访问控制技术之一，用于检测和处理数据碰撞",
+      "载波侦听多点接入/碰撞检测",
+      "客户端从邮件服务器上下载电子邮件",
       "点对点和广播（点对多点）两种连接方式",
-      "一个数据链路层协议，用于同步点对点和多点链路传输",
-      "载波侦听多点接入/碰撞检测"
+      "万维网（WorldWide Web）"
     ],
-    "answerIndex": 3,
+    "answerIndex": 0,
     "explain": "CSMA/CD 的中英文名称是 载波侦听多点接入/碰撞检测。"
   },
   {
     "id": 34,
     "q": "CSMA/CD 的主要功能特征是____。",
     "options": [
-      "以太网的介质访问控制技术之一、0、处理数据碰撞",
+      "以太网的介质访问控制技术之一、用于检测、处理数据碰撞、0",
       "以太网的介质访问控制技术之一，用于检测和处理数据碰撞",
-      "0、用于检测、处理数据碰撞",
-      "用于检测、以太网的介质访问控制技术之一、处理数据碰撞"
+      "用于检测、以太网的介质访问控制技术之一、处理数据碰撞",
+      "以太网的介质访问控制技术之一、0、处理数据碰撞"
     ],
     "answerIndex": 1,
     "explain": "CSMA/CD 的主要功能特征是：以太网的介质访问控制技术之一，用于检测和处理数据碰撞。"
@@ -412,9 +412,9 @@ window.QUESTIONS = [
     "id": 35,
     "q": "ARP 的中英文名称是 ____。",
     "options": [
-      "网间控制报文协议（Internet Control Messages Protocol）",
-      "文件传输协议（File Transfer Protocol）",
-      "路由选择信息协议（Routing Information Protocol）",
+      "SSH",
+      "DHCP",
+      "ARP",
       "正向地址解析协议（Address Resolution Protocol）"
     ],
     "answerIndex": 3,
@@ -424,21 +424,21 @@ window.QUESTIONS = [
     "id": 36,
     "q": "ARP 的主要功能特征是____。",
     "options": [
-      "源地址、目的地址和 AP 地址",
-      "存放对象的服务器主机域名（或 IP 地址）和对象路径名",
+      "ARP",
       "将 IP 地址解析为 MAC 地址",
-      "将域名映射到 IP 地址，实现域名解析"
+      "IP",
+      "RIP"
     ],
-    "answerIndex": 2,
+    "answerIndex": 1,
     "explain": "ARP 的主要功能特征是：将 IP 地址解析为 MAC 地址。"
   },
   {
     "id": 37,
     "q": "DHCP 的中英文名称是 ____。",
     "options": [
-      "HTTPS",
-      "HTTP",
+      "DHCP",
       "FTP",
+      "DNS",
       "动态主机配置协议(Dynamic Host Configuration Protocol)"
     ],
     "answerIndex": 3,
@@ -448,12 +448,12 @@ window.QUESTIONS = [
     "id": 38,
     "q": "DHCP 的主要功能特征是____。",
     "options": [
-      "DNS",
-      "HTTPS",
-      "HTTP",
-      "自动为主机分配 IP、子网掩码、网关、DNS 等参数"
+      "自动为主机分配 IP、子网掩码、0、DNS 等参数",
+      "子网掩码、自动为主机分配 IP、网关、DNS 等参数",
+      "自动为主机分配 IP、子网掩码、网关、DNS 等参数",
+      "自动为主机分配 IP、子网掩码、网关、DNS 等参数、0"
     ],
-    "answerIndex": 3,
+    "answerIndex": 2,
     "explain": "DHCP 的主要功能特征是：自动为主机分配 IP、子网掩码、网关、DNS 等参数。"
   },
   {
@@ -461,47 +461,47 @@ window.QUESTIONS = [
     "q": "计算机互联的主要目的是____。",
     "options": [
       "21、20",
-      "80",
-      "资源共享",
-      "110"
+      "110",
+      "443",
+      "资源共享"
     ],
-    "answerIndex": 2,
+    "answerIndex": 3,
     "explain": "计算机互联的主要目的是资源共享。"
   },
   {
     "id": 40,
     "q": "网络边缘的端系统之间的通信方式可以划分为____。",
     "options": [
-      "CS和P2P两大类",
-      "CS、P2P两大类、0",
+      "0、P2P两大类",
       "20 、40字节",
-      "0、P2P两大类"
+      "CS和P2P两大类",
+      "CS、P2P两大类、0"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explain": "网络边缘的端系统之间的通信方式可以划分为CS和P2P两大类。"
   },
   {
     "id": 41,
     "q": "对于报文和分组两种交换方式来说，更为公平的交换方式是____。",
     "options": [
-      "分组交换",
       "21、20",
-      "80",
-      "110"
+      "443",
+      "110",
+      "分组交换"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explain": "对于报文和分组两种交换方式来说，更为公平的交换方式是分组交换。"
   },
   {
     "id": 42,
     "q": "每个 URL 地址主要包括____。",
     "options": [
-      "服务器类型、主机名、路径及文件名",
+      "存放对象的服务器主机域名（或 IP 地址）和对象路径名",
+      "将域名映射到 IP 地址，实现域名解析",
       "存放对象的服务器主机域名（或 IP 地址）、对象路径名、0",
-      "存放对象的服务器主机域名（或 IP 地址）、0",
-      "存放对象的服务器主机域名（或 IP 地址）和对象路径名"
+      "存放对象的服务器主机域名（或 IP 地址）、0"
     ],
-    "answerIndex": 3,
+    "answerIndex": 0,
     "explain": "每个 URL 地址主要包括存放对象的服务器主机域名（或 IP 地址）和对象路径名。"
   },
   {
@@ -509,9 +509,9 @@ window.QUESTIONS = [
     "q": "在 OSI 参考模型中，保证端到端的可靠性是____。",
     "options": [
       "在传输层上完成的",
-      "数据链路层",
       "网络层",
-      "物理层"
+      "物理层",
+      "数据链路层"
     ],
     "answerIndex": 0,
     "explain": "在 OSI 参考模型中，保证端到端的可靠性是在传输层上完成的。"
@@ -520,20 +520,20 @@ window.QUESTIONS = [
     "id": 44,
     "q": "应用程序 PING 发出的是____。",
     "options": [
+      "DHCP",
       "ICMP请求报文",
-      "21、20",
-      "简单邮件传输协议",
-      "客户端从邮件服务器上下载电子邮件"
+      "ICMP",
+      "SNMP"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explain": "应用程序 PING 发出的是ICMP请求报文。"
   },
   {
     "id": 45,
     "q": "IP 数据报 IPV4、IPV6 首部固定部分的长度分别是____。",
     "options": [
-      "20、0",
       "0、40字节",
+      "CS和P2P两大类",
       "20 、40字节",
       "20、40字节、0"
     ],
@@ -545,9 +545,9 @@ window.QUESTIONS = [
     "q": "TCP/IP 协议模型自顶向下，共分为____。",
     "options": [
       "网络层",
-      "物理层",
+      "数据链路层",
       "应用层、运输层、网络层、网络接口层",
-      "数据链路层"
+      "物理层"
     ],
     "answerIndex": 2,
     "explain": "TCP/IP 协议模型自顶向下，共分为应用层、运输层、网络层、网络接口层。"
@@ -556,48 +556,48 @@ window.QUESTIONS = [
     "id": 47,
     "q": "计算机网络可以通过____来组建。",
     "options": [
-      "通信子网和资源子网",
-      "通信子网、0",
       "通信子网、资源子网、0",
-      "0、资源子网"
+      "0、资源子网",
+      "通信子网和资源子网",
+      "通信子网、0"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explain": "计算机网络可以通过通信子网和资源子网来组建。"
   },
   {
     "id": 48,
     "q": "从传输层的角度看，端到端的通信是____。",
     "options": [
-      "数据链路层",
-      "网络层",
+      "应用进程之间的通信",
       "物理层",
-      "应用进程之间的通信"
+      "网络层",
+      "数据链路层"
     ],
-    "answerIndex": 3,
+    "answerIndex": 0,
     "explain": "从传输层的角度看，端到端的通信是应用进程之间的通信。"
   },
   {
     "id": 49,
     "q": "面向连接服务和无连接服务对网络通信中数据传输的可靠性有影响，但是____。",
     "options": [
-      "网络数据传输的可靠性一般通过ACK和重传机制保证",
-      "网络数据传输的可靠性一般通过ACK、0",
       "网络数据传输的可靠性一般通过ACK、重传机制保证、0",
-      "拓扑结构、传输介质和介质访问控制方法（MAC）"
+      "网络数据传输的可靠性一般通过ACK、0",
+      "拓扑结构、传输介质和介质访问控制方法（MAC）",
+      "网络数据传输的可靠性一般通过ACK和重传机制保证"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explain": "面向连接服务和无连接服务对网络通信中数据传输的可靠性有影响，但是网络数据传输的可靠性一般通过ACK和重传机制保证。"
   },
   {
     "id": 50,
     "q": "IP 地址的主机部分如果全为 1，则表示是____",
     "options": [
-      "IP地址",
-      "MAC地址",
-      "广播地址",
-      "网络地址"
+      "IP",
+      "ICMP",
+      "BGP",
+      "广播地址"
     ],
-    "answerIndex": 2,
+    "answerIndex": 3,
     "explain": "IP 地址的主机部分如果全为 1，则表示是广播地址"
   },
   {
@@ -605,9 +605,9 @@ window.QUESTIONS = [
     "q": "IP 地址的主机部分如果全为 0 ， 则表示____。",
     "options": [
       "网络地址",
-      "IP地址",
-      "MAC地址",
-      "广播地址"
+      "ICMP",
+      "BGP",
+      "IP"
     ],
     "answerIndex": 0,
     "explain": "IP 地址的主机部分如果全为 0 ， 则表示网络地址。"
@@ -617,47 +617,47 @@ window.QUESTIONS = [
     "q": "若要实现不同 VLAN 之间的通信，需要____实现不同 VLAN 之间的 数据转发。",
     "options": [
       "数据链路层",
-      "路由器或三层交换机",
       "网络层",
+      "路由器或三层交换机",
       "物理层"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explain": "若要实现不同 VLAN 之间的通信，需要路由器或三层交换机实现不同 VLAN 之间的 数据转发。"
   },
   {
     "id": 53,
     "q": "OSI 七层参考模型由____组成。",
     "options": [
+      "网络层",
       "物理层",
       "应用层、表示层、会话层、运输层、网络层、 数据链路层、物理层",
-      "网络层",
       "数据链路层"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explain": "OSI 七层参考模型由应用层、表示层、会话层、运输层、网络层、 数据链路层、物理层组成。"
   },
   {
     "id": 54,
     "q": "影响局域网性能的三要素是____",
     "options": [
-      "0、传输介质、介质访问控制方法（MAC）",
-      "传输介质、拓扑结构、介质访问控制方法（MAC）",
+      "拓扑结构、0、介质访问控制方法（MAC）",
       "拓扑结构、传输介质和介质访问控制方法（MAC）",
-      "拓扑结构、0、介质访问控制方法（MAC）"
+      "传输介质、拓扑结构、介质访问控制方法（MAC）",
+      "拓扑结构、传输介质、介质访问控制方法（MAC）、0"
     ],
-    "answerIndex": 2,
+    "answerIndex": 1,
     "explain": "影响局域网性能的三要素是拓扑结构、传输介质和介质访问控制方法（MAC）"
   },
   {
     "id": 55,
     "q": "目前内部网关协议主要有____。",
     "options": [
-      "RIP和 OSPF 协议",
       "0、OSPF 协议",
       "RIP和OSPF",
+      "RIP和 OSPF 协议",
       "RIP、OSPF 协议、0"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explain": "目前内部网关协议主要有RIP和 OSPF 协议。"
   },
   {
@@ -666,8 +666,8 @@ window.QUESTIONS = [
     "options": [
       "FTP",
       "SMTP",
-      "HTTP",
-      "TFTP"
+      "POP3",
+      "IMAP"
     ],
     "answerIndex": 1,
     "explain": "Internet 中广泛使用的电子邮件传送协议是SMTP。"
@@ -676,12 +676,12 @@ window.QUESTIONS = [
     "id": 57,
     "q": "IEEE 802.11 的 MAC 帧有个地址，在有固定基础设施的 WLAN 中只使用其中的三个地址字段，即____。",
     "options": [
-      "0、目的地址、AP 地址",
-      "源地址、0、AP 地址",
       "目的地址、源地址、AP 地址",
-      "源地址、目的地址和 AP 地址"
+      "0、目的地址、AP 地址",
+      "源地址、目的地址和 AP 地址",
+      "源地址、目的地址、AP 地址、0"
     ],
-    "answerIndex": 3,
+    "answerIndex": 2,
     "explain": "IEEE 802.11 的 MAC 帧有个地址，在有固定基础设施的 WLAN 中只使用其中的三个地址字段，即源地址、目的地址和 AP 地址。"
   },
   {
@@ -689,69 +689,69 @@ window.QUESTIONS = [
     "q": "在 Internet 中，用户实现主机到主机之间的通信协议是 ____。",
     "options": [
       "用于实现应用进程到应用进程之间通信的协议是TCP、IP 协议、UDP",
-      "IP 协议、用于实现应用进程到应用进程之间通信的协议是TCP",
       "IP 协议，用于实现应用进程到应用进程之间通信的协议是TCP和UDP",
-      "0、用于实现应用进程到应用进程之间通信的协议是TCP、UDP"
+      "IP 协议、用于实现应用进程到应用进程之间通信的协议是TCP、UDP、0",
+      "IP 协议、用于实现应用进程到应用进程之间通信的协议是TCP"
     ],
-    "answerIndex": 2,
+    "answerIndex": 1,
     "explain": "在 Internet 中，用户实现主机到主机之间的通信协议是 IP 协议，用于实现应用进程到应用进程之间通信的协议是TCP和UDP。"
   },
   {
     "id": 59,
     "q": "标准的 URL 由____组成。",
     "options": [
+      "服务器类型、主机名、路径及文件名、0",
       "主机名、服务器类型、路径及文件名",
       "服务器类型、主机名、路径及文件名",
-      "服务器类型、0、路径及文件名",
-      "0、主机名、路径及文件名"
+      "服务器类型、0、路径及文件名"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explain": "标准的 URL 由服务器类型、主机名、路径及文件名组成。"
   },
   {
     "id": 60,
     "q": "通常解决服务器处理并发请求的方案有两种，一是____。",
     "options": [
-      "采用并发服务器，二是采用重复服务器的方法",
       "0、二是采用重复服务器的方法",
       "服务器类型、主机名、路径及文件名",
-      "采用并发服务器、二是采用重复服务器的方法、0"
+      "采用并发服务器、二是采用重复服务器的方法、0",
+      "采用并发服务器，二是采用重复服务器的方法"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explain": "通常解决服务器处理并发请求的方案有两种，一是采用并发服务器，二是采用重复服务器的方法。"
   },
   {
     "id": 61,
     "q": "TCP 传输的可靠性是____。",
     "options": [
+      "基于超时重传、拥塞控制、流量控制、序号、连接管理这 5 种机制来实现、0",
       "基于超时重传、0、流量控制、序号、连接管理这 5 种机制来实现",
       "拥塞控制、基于超时重传、流量控制、序号、连接管理这 5 种机制来实现",
-      "基于超时重传、拥塞控制、流量控制、序号、 连接管理这 5 种机制来实现",
-      "0、拥塞控制、流量控制、序号、连接管理这 5 种机制来实现"
+      "基于超时重传、拥塞控制、流量控制、序号、 连接管理这 5 种机制来实现"
     ],
-    "answerIndex": 2,
+    "answerIndex": 3,
     "explain": "TCP 传输的可靠性是基于超时重传、拥塞控制、流量控制、序号、 连接管理这 5 种机制来实现。"
   },
   {
     "id": 62,
     "q": "几种常用的网络应用中，HTTP 的端口号是____。",
     "options": [
-      "80，FTP 控制连接的端口号是21， SMTP 的端口号是25 ，POP3 的端口号是110",
-      "25",
       "20",
-      "21"
+      "80",
+      "8080",
+      "80，FTP 控制连接的端口号是21， SMTP 的端口号是25 ，POP3 的端口号是110"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explain": "几种常用的网络应用中，HTTP 的端口号是80，FTP 控制连接的端口号是21， SMTP 的端口号是25 ，POP3 的端口号是110。"
   },
   {
     "id": 63,
     "q": "通信网络一般可分为____。",
     "options": [
-      "电路交换网络、0、而分组交换网络又可分为 虚电路网络、数据报交换网络",
+      "电路交换网络、分组交换网络、而分组交换网络又可分为 虚电路网络、数据报交换网络、0",
       "电路交换网络和分组交换网络，而分组交换网络又可分为 虚电路网络和数据报交换网络",
-      "0、分组交换网络、而分组交换网络又可分为 虚电路网络、数据报交换网络",
-      "分组交换网络、电路交换网络、而分组交换网络又可分为 虚电路网络、数据报交换网络"
+      "分组交换网络、电路交换网络、而分组交换网络又可分为 虚电路网络、数据报交换网络",
+      "电路交换网络、0、而分组交换网络又可分为 虚电路网络、数据报交换网络"
     ],
     "answerIndex": 1,
     "explain": "通信网络一般可分为电路交换网络和分组交换网络，而分组交换网络又可分为 虚电路网络和数据报交换网络。"
@@ -760,106 +760,106 @@ window.QUESTIONS = [
     "id": 64,
     "q": "为____。",
     "options": [
+      "了使网络层和数据链路层可以互通，需要用到ARP协议，它将 IP 地址解析为 MAC地址",
       "物理层",
       "数据链路层",
-      "了使网络层和数据链路层可以互通，需要用到ARP协议，它将 IP 地址解析为 MAC地址",
       "网络层"
     ],
-    "answerIndex": 2,
+    "answerIndex": 0,
     "explain": "为了使网络层和数据链路层可以互通，需要用到ARP协议，它将 IP 地址解析为 MAC地址。"
   },
   {
     "id": 65,
     "q": "在数据包从源端发送到目的端的过程中经过了多个链路，其中____保持不变，MAC地址会发生变化。",
     "options": [
+      "BGP",
+      "RIP",
       "IP地址",
-      "广播地址",
-      "MAC地址",
-      "网络地址"
+      "IP"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explain": "在数据包从源端发送到目的端的过程中经过了多个链路，其中IP地址保持不变，MAC地址会发生变化。"
   },
   {
     "id": 66,
     "q": "路由器在转发一个 IP 数据报过程中，如果发现该数据报报头中的 TTL 字段为 ____。",
     "options": [
+      "0，那 么，它首先将该数据报丢弃，然后向源主机发送ICMP协议报文",
       "那 么、0、它首先将该数据报丢弃、然后向源主机发送ICMP协议报文",
       "0、20、它首先将该数据报丢弃、然后向源主机发送ICMP协议报文",
-      "20、那 么、它首先将该数据报丢弃、然后向源主机发送ICMP协议报文",
-      "0，那 么，它首先将该数据报丢弃，然后向源主机发送ICMP协议报文"
+      "20、那 么、它首先将该数据报丢弃、然后向源主机发送ICMP协议报文"
     ],
-    "answerIndex": 3,
+    "answerIndex": 0,
     "explain": "路由器在转发一个 IP 数据报过程中，如果发现该数据报报头中的 TTL 字段为 0，那 么，它首先将该数据报丢弃，然后向源主机发送ICMP协议报文。"
   },
   {
     "id": 67,
     "q": "FTP 和 HTTP 最主要的差别是 ____。",
     "options": [
-      "TFTP",
-      "HTTP",
-      "FTP",
-      "FTP 使用两个并行的 TCP 连接来传输文件，一个是控制连接，另一个是数据连接"
+      "FTP 使用两个并行的 TCP 连接来传输文件、一个是控制连接、另一个是数据连接、0",
+      "一个是控制连接、FTP 使用两个并行的 TCP 连接来传输文件、另一个是数据连接",
+      "FTP 使用两个并行的 TCP 连接来传输文件，一个是控制连接，另一个是数据连接",
+      "FTP 使用两个并行的 TCP 连接来传输文件、一个是控制连接"
     ],
-    "answerIndex": 3,
+    "answerIndex": 2,
     "explain": "FTP 和 HTTP 最主要的差别是 FTP 使用两个并行的 TCP 连接来传输文件，一个是控制连接，另一个是数据连接。"
   },
   {
     "id": 68,
     "q": "IPv6 地址由____组成。",
     "options": [
+      "IP",
+      "BGP",
       "128位二进制数值",
-      "客户端从邮件服务器上下载电子邮件",
-      "万维网（WorldWide Web）",
-      "21、20"
+      "ICMP"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explain": "IPv6 地址由128位二进制数值组成。"
   },
   {
     "id": 69,
     "q": "在采用电信号表达数据的系统中，数据有____。",
     "options": [
-      "0、模拟数据两种",
+      "CS和P2P两大类",
+      "数字数据、模拟数据两种、0",
       "数字数据和模拟数据两种",
-      "数字数据、0",
-      "数字数据、模拟数据两种、0"
+      "0、模拟数据两种"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explain": "在采用电信号表达数据的系统中，数据有数字数据和模拟数据两种。"
   },
   {
     "id": 70,
     "q": "每个 IP 地址包括____。",
     "options": [
-      "两个标识部分：网络号、主机号、0",
       "两个标识部分：网络号、0",
-      "服务器类型、主机名、路径及文件名",
-      "两个标识部分：网络号、主机号"
+      "两个标识部分：网络号、主机号、0",
+      "两个标识部分：网络号、主机号",
+      "服务器类型、主机名、路径及文件名"
     ],
-    "answerIndex": 3,
+    "answerIndex": 2,
     "explain": "每个 IP 地址包括两个标识部分：网络号、主机号。"
   },
   {
     "id": 71,
     "q": "局域网常用的拓外结构有总线、星形和环形三种。著名的以太网（Ethernet）就是____。",
     "options": [
-      "客户端从邮件服务器上下载电子邮件",
-      "21、20",
+      "CS和P2P两大类",
       "采用其中的总线结构",
-      "星 、环 、树 、总线型和网状等"
+      "简单邮件传输协议",
+      "载波侦听多点接入/碰撞检测"
     ],
-    "answerIndex": 2,
+    "answerIndex": 1,
     "explain": "局域网常用的拓外结构有总线、星形和环形三种。著名的以太网（Ethernet）就是采用其中的总线结构。"
   },
   {
     "id": 72,
     "q": "路由算法中有两种算法比较流行，它们是____。",
     "options": [
-      "RIP、0",
+      "RIP和 OSPF 协议",
       "RIP和OSPF",
-      "0、OSPF",
-      "RIP、OSPF、0"
+      "RIP、OSPF、0",
+      "0、OSPF"
     ],
     "answerIndex": 1,
     "explain": "路由算法中有两种算法比较流行，它们是RIP和OSPF。"
@@ -868,24 +868,24 @@ window.QUESTIONS = [
     "id": 73,
     "q": "令牌总线网在物理上是____。",
     "options": [
-      "星 、环 、树 、总线型和网状等",
-      "总线型结构的局域网，但在逻辑结构上是环型的局域网",
       "0、但在逻辑结构上是环型的局域网",
-      "总线型结构的局域网、但在逻辑结构上是环型的局域网、0"
+      "总线型结构的局域网、但在逻辑结构上是环型的局域网、0",
+      "总线型结构的局域网，但在逻辑结构上是环型的局域网",
+      "星 、环 、树 、总线型和网状等"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explain": "令牌总线网在物理上是总线型结构的局域网，但在逻辑结构上是环型的局域网。"
   },
   {
     "id": 74,
     "q": "计算机网络的体系结构模型中，最有影响的有____。",
     "options": [
-      "OSI/RM、TCP/IP、0",
-      "0、TCP/IP",
       "OSI/RM和TCP/IP",
-      "OSI/RM、0"
+      "将域名映射到 IP 地址，实现域名解析",
+      "RIP和 OSPF 协议",
+      "OSI/RM、TCP/IP、0"
     ],
-    "answerIndex": 2,
+    "answerIndex": 0,
     "explain": "计算机网络的体系结构模型中，最有影响的有OSI/RM和TCP/IP。"
   },
   {
@@ -893,9 +893,9 @@ window.QUESTIONS = [
     "q": "电路交换方式与虚电路交换方式的主要区别是____。",
     "options": [
       "虚电路交换是分组交换",
+      "简单邮件传输协议",
       "路由器或三层交换机",
-      "21、20",
-      "客户端从邮件服务器上下载电子邮件"
+      "载波侦听多点接入/碰撞检测"
     ],
     "answerIndex": 0,
     "explain": "电路交换方式与虚电路交换方式的主要区别是虚电路交换是分组交换。"
@@ -904,22 +904,22 @@ window.QUESTIONS = [
     "id": 76,
     "q": "路由器中，负责路由协议处理和路由计算的部分是____。",
     "options": [
-      "由网络管理员手工分配静态地址，一种是DHCP",
-      "CPU",
-      "DHCP",
-      "TCP"
+      "BGP",
+      "ICMP",
+      "IGMP",
+      "CPU"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explain": "路由器中，负责路由协议处理和路由计算的部分是CPU。"
   },
   {
     "id": 77,
     "q": "一台主机的 IP 地址有两种分配方法，一是____",
     "options": [
-      "HTTP",
+      "由网络管理员手工分配静态地址、0",
       "由网络管理员手工分配静态地址，一种是DHCP",
-      "HTTPS",
-      "DHCP"
+      "由网络管理员手工分配静态地址、一种是DHCP、0",
+      "将域名映射到 IP 地址，实现域名解析"
     ],
     "answerIndex": 1,
     "explain": "一台主机的 IP 地址有两种分配方法，一是由网络管理员手工分配静态地址，一种是DHCP"
@@ -928,10 +928,10 @@ window.QUESTIONS = [
     "id": 78,
     "q": "当数据报在物理网络中进行传输时，IP 地址被转换成____。",
     "options": [
-      "网络地址",
-      "IP地址",
+      "ICMP",
+      "BGP",
       "MAC地址",
-      "广播地址"
+      "IP"
     ],
     "answerIndex": 2,
     "explain": "当数据报在物理网络中进行传输时，IP 地址被转换成MAC地址。"
@@ -940,12 +940,12 @@ window.QUESTIONS = [
     "id": 79,
     "q": "通信线路连接有____。",
     "options": [
+      "基于距离向量算法的内部网关路由协议，使用跳数计算路径",
       "0、广播（点对多点）两种连接方式",
-      "数字数据和模拟数据两种",
-      "点对点、广播（点对多点）两种连接方式、0",
-      "点对点和广播（点对多点）两种连接方式"
+      "点对点和广播（点对多点）两种连接方式",
+      "点对点、广播（点对多点）两种连接方式、0"
     ],
-    "answerIndex": 3,
+    "answerIndex": 2,
     "explain": "通信线路连接有点对点和广播（点对多点）两种连接方式。"
   },
   {
@@ -954,46 +954,46 @@ window.QUESTIONS = [
     "options": [
       "邮件头、邮件体两部分、0",
       "0、邮件体两部分",
-      "邮件头和邮件体两部分",
-      "邮件头、0"
+      "两个标识部分：网络号、主机号",
+      "邮件头和邮件体两部分"
     ],
-    "answerIndex": 2,
+    "answerIndex": 3,
     "explain": "任何一个电子邮件是由邮件头和邮件体两部分组成。"
   },
   {
     "id": 81,
     "q": "IPv4 地址由____组成，IPv6 地址由128个比特组成，MAC 地址由6个字节组成",
     "options": [
-      "21、20",
-      "20 、40字节",
-      "4个字节",
-      "80"
+      "IP",
+      "BGP",
+      "ICMP",
+      "4个字节"
     ],
-    "answerIndex": 2,
+    "answerIndex": 3,
     "explain": "IPv4 地址由4个字节组成，IPv6 地址由128个比特组成，MAC 地址由6个字节组成"
   },
   {
     "id": 82,
     "q": "计算机网络中的四种延迟分别是：____",
     "options": [
-      "0、传播延迟、处理延迟、排队延迟",
-      "传播延迟、传输延迟、处理延迟、排队延迟",
-      "传输延迟、0、处理延迟、排队延迟",
-      "传输延迟、传播延迟、处理延迟和排队延迟"
+      "传输延迟、传播延迟、处理延迟、排队延迟、0",
+      "传输延迟、传播延迟、处理延迟和排队延迟",
+      "传输延迟、传播延迟、处理延迟",
+      "传播延迟、传输延迟、处理延迟、排队延迟"
     ],
-    "answerIndex": 3,
+    "answerIndex": 1,
     "explain": "计算机网络中的四种延迟分别是：传输延迟、传播延迟、处理延迟和排队延迟"
   },
   {
     "id": 83,
     "q": "随 机 访 问 介 质 访 问 控 制 协 议 ， 常 用 的 协 议 有 ALOHA 协议、 CSMA 协 议 、 CSMA/CA协议和 CSMA/CD协议等，它们的核心思想都是____。",
     "options": [
-      "0、从而获得信息的发送权",
-      "胜利者通过争用获得信道，从而获得信息的发送权",
-      "胜利者通过争用获得信道、0",
-      "胜利者通过争用获得信道、从而获得信息的发送权、0"
+      "用于发送电子邮件和服务器之间转发邮件",
+      "胜利者通过争用获得信道、从而获得信息的发送权、0",
+      "网络数据传输的可靠性一般通过ACK和重传机制保证",
+      "胜利者通过争用获得信道，从而获得信息的发送权"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explain": "随 机 访 问 介 质 访 问 控 制 协 议 ， 常 用 的 协 议 有 ALOHA 协议、 CSMA 协 议 、 CSMA/CA协议和 CSMA/CD协议等，它们的核心思想都是：胜利者通过争用获得信道，从而获得信息的发送权。"
   },
   {
@@ -1001,11 +1001,11 @@ window.QUESTIONS = [
     "q": "串行数据通信的方向性结构有三种，即____。",
     "options": [
       "半双工、单工、全双工",
-      "单工、 半双工 和 全双工",
       "0、半双工、全双工",
-      "单工、0、全双工"
+      "单工、半双工、全双工、0",
+      "单工、 半双工 和 全双工"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explain": "串行数据通信的方向性结构有三种，即单工、 半双工 和 全双工。"
   },
   {
@@ -1014,8 +1014,8 @@ window.QUESTIONS = [
     "options": [
       "552B、552B、376B 和520B",
       "376B、552B、520B",
-      "0、376B、520B",
-      "552B、0、520B"
+      "552B、376B、520B、0",
+      "用于在主机之间传输文件，支持上传/下载（控制 + 数据双通道）"
     ],
     "answerIndex": 0,
     "explain": "某网络的一台主机产生了一个 IP 数据报，头部长度为 20B，数据部分长度为 2000B。该数据报需要经过两个网络到达目的主机，这两个网络所允许的最大传输单位（MTU）分别为 1500B 和 576B，则原 IP 数据报到达目的主机时分成了 4 个 IP 小报文，每个报文的数据部分长度分别是552B、552B、376B 和520B。"
@@ -1024,24 +1024,24 @@ window.QUESTIONS = [
     "id": 86,
     "q": "IPv4 地址由____组成，它包括网络号和主机号 。IPv6 地址由16个字节组成， MAC 地址由48个比特组成。",
     "options": [
-      "110",
-      "32个比特",
-      "21、20",
-      "443"
+      "ICMP",
+      "IP",
+      "BGP",
+      "32个比特"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explain": "IPv4 地址由32个比特组成，它包括网络号和主机号 。IPv6 地址由16个字节组成， MAC 地址由48个比特组成。"
   },
   {
     "id": 87,
     "q": "UDP 数据报首部包含____。",
     "options": [
-      "80，FTP 控制连接的端口号是21， SMTP 的端口号是25 ，POP3 的端口号是110",
-      "源地址、目的地址和 AP 地址",
-      "80",
-      "源端口、目的端口、长度和校验和"
+      "源端口、目的端口、长度和校验和",
+      "21",
+      "19",
+      "20"
     ],
-    "answerIndex": 3,
+    "answerIndex": 0,
     "explain": "UDP 数据报首部包含源端口、目的端口、长度和校验和。"
   },
   {
@@ -1049,23 +1049,23 @@ window.QUESTIONS = [
     "q": "有两种基本的差错控制编码，即____。",
     "options": [
       "检错码、0",
+      "0、纠错码",
       "检错码和纠错码",
-      "检错码、纠错码、0",
-      "0、纠错码"
+      "检错码、纠错码、0"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explain": "有两种基本的差错控制编码，即检错码和纠错码。"
   },
   {
     "id": 89,
     "q": "计算机网络中的主要拓扑结构有____。",
     "options": [
+      "星、环、树、总线型、网状等、0",
       "星 、环 、树 、总线型和网状等",
       "环、星、树、总线型、网状等",
-      "0、环、树、总线型、网状等",
-      "星、0、树、总线型、网状等"
+      "0、环、树、总线型、网状等"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explain": "计算机网络中的主要拓扑结构有： 星 、环 、树 、总线型和网状等。"
   },
   {
@@ -1073,23 +1073,23 @@ window.QUESTIONS = [
     "q": "计算机网络中常用的三种有线媒体是 ____。",
     "options": [
       "光纤、同轴电缆、双绞线",
-      "0、光纤、双绞线",
       "同轴电缆、光纤和双绞线",
-      "同轴电缆、0、双绞线"
+      "同轴电缆、光纤、双绞线、0",
+      "同轴电缆、光纤、0"
     ],
-    "answerIndex": 2,
+    "answerIndex": 1,
     "explain": "计算机网络中常用的三种有线媒体是 同轴电缆、光纤和双绞线。"
   },
   {
     "id": 91,
     "q": "路由信息协议 RIP 是____。",
     "options": [
+      "IP",
+      "BGP",
       "基于距离矢量路由算法",
-      "路由器或三层交换机",
-      "客户端从邮件服务器上下载电子邮件",
-      "21、20"
+      "RIP"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explain": "路由信息协议 RIP 是基于距离矢量路由算法。"
   }
 ];
