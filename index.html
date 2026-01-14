@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0b1020" />
+  <title>计算机网络刷题</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div>
+        <h1 class="h-title">计算机网络刷题（选择题）</h1>
+        <p class="h-sub">题库来自你的文档自动生成；支持手机浏览器打开，做完可查看错题回顾。</p>
+      </div>
+      <div class="row">
+        <span class="pill" id="pillTotal">题库：--题</span>
+        <span class="pill" id="pillMode">模式：练习</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+        <div class="row" style="justify-content:space-between;">
+          <div class="small" id="progressText">准备开始</div>
+          <div class="small" id="timerText"></div>
+        </div>
+        <div class="progress" aria-label="progress">
+          <div id="bar"></div>
+        </div>
+
+        <div id="view"></div>
+
+        <div class="footer">
+          <div>提示：如果你把本项目发布到 GitHub Pages / Netlify，就能得到一个手机可打开的链接。</div>
+          <div>离线：浏览器打开一次后可在弱网/离线继续使用（PWA 缓存）。</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="questions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

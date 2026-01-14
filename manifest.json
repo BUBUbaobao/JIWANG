@@ -1,0 +1,9 @@
+{
+  "name": "计算机网络刷题",
+  "short_name": "网络刷题",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0b1020",
+  "theme_color": "#0b1020",
+  "description": "基于文档知识点自动生成的选择题刷题页面"
+}
